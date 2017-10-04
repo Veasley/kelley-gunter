@@ -1,0 +1,71 @@
+/* =============================
+	   BASE FORM STYLES
+=============================== */
+
+//Breaks input lists into a column - Left Side
+.form-field-left {
+	width: 48%;
+	display: inline-block;
+	float: left;
+	margin-right: 2% !important;
+	
+	@include respond-custom(max-width, 641px) {
+		width: 100%;
+		display: block;
+		float: none;
+		margin-right: 0 !important;
+	}
+}
+
+
+//Breaks input lists into a column - Right Side
+.form-field-right {
+	width: 48%;
+	display: inline-block;
+	
+	@include respond-custom(max-width, 641px) {
+		width: 100%;
+		display: block;
+	}
+}
+
+
+//Gravity Forms
+//========================================
+.gform_body {
+	
+	label {
+		
+	}
+	
+	
+	//Dropdown description
+	.gfield_description {
+		
+	}
+	
+	
+	
+	input,
+	textarea,
+	select {
+		
+	}
+	
+	select,
+	textarea {
+		
+	}
+	
+	select {
+				
+		&:focus {
+			
+		}
+	}
+}
+
+//Submit button
+input[type="submit"] {
+	
+}
