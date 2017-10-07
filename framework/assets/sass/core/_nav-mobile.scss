@@ -1,3 +1,21 @@
 /* =============================
 	MOBILE NAVIGATION STYLES
 =============================== */
+
+//Display mobile menu early
+ @include respond-custom( max-width, 1170px ){
+
+	.x-btn-navbar {
+     display: block;
+     float: right;
+    }
+    
+    .x-nav-wrap.desktop {
+        display: none !important;
+    }
+    
+    .x-nav-wrap.mobile.in {
+        display: block;
+    }
+
+}

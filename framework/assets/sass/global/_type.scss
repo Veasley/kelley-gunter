@@ -4,7 +4,21 @@
 
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0 !important;
-	margin-bottom: 0 !important;
+	line-height: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.h-custom-headline {
+	
+	&.-white {
+		
+		span:before, 
+		span:after {
+			border-color: white !important;
+		}
+	}
+	
 }
 
 
@@ -12,31 +26,59 @@ h1, h2, h3, h4, h5, h6 {
 // H1 BUILD
 // =================
 h1 {
-
-	//Scale down the h1 tags from the default of 400%
-	// Must Use Important Tags Unfortunately
+	font-size: 400% !important;
+	
+	//1280px
+	@include respond-max( $l-laptop ) {
+		font-size: 380% !important;
+	}
+	
+	
+	//1024px
+	@include respond-max( $hor-tablet ) {
+		font-size: 280% !important;
+	}
+	
+	
+	//768px
+	@include respond-max( $ver-tablet ) {
+		font-size: 240% !important;
+	}
+	
+	
+	//600px
+	@include respond-max( $l-phone ) {
+		font-size: 200% !important;
+	}
+	
+	
+	//480px
+	@include respond-max( $m-phone ) {
+		font-size: 180% !important;
+	}
 	
 }
+
 
 
 // H2 BUILD
 // ===========================
 h2 {
-	
+	font-size: 300% !important;
 }
 
 
 // H3 BUILD
 // ===========================
 h3 {
-	
+	font-size: 200% !important;
 }
 
 
 // H4 BUILD
 // ===========================
 h4 {
-	
+	font-size: 160% !important;
 }
 
 
@@ -63,7 +105,19 @@ h6 {
 // X-TEXT STYLES - X-THEME
 // ===========================
 
-.x-text { 	
+.x-text { 
+	letter-spacing: 0.01em;	
+	
+	//600px
+	@include respond-max( $l-phone ) {
+		line-height: 1.5 !important;
+		font-size: 0.85rem !important;
+	}
+	
+	p {
+		margin-bottom: 15px !important;
+	}
+	
 
 	//Gray Variant
 	//=======================
@@ -82,10 +136,25 @@ h6 {
 		> h1, h2, h3, h4, h5, h6, p{
 			color: white;
 		}
-
 	}
 
 }
+
+
+//TEXT TITLE VARIATIONS
+//==========================
+.x-text {
+	
+	//Non-italic head titles
+	.straight-title {
+		
+		h1, h2, h3, h4, h5, h6 {
+			font-style: normal !important;
+		}		
+	}
+}
+
+
 
 
 // TEXT WIDTHS
@@ -98,6 +167,14 @@ h6 {
 	
 	&._max-1150 {
 		max-width: em( 1150 );
+	}
+	
+	&._max-960 {
+		max-width: em( 960 );
+	}
+	
+	&._max-880 {
+		max-width: em( 880 );
 	}
 	
 	&._max-520 {
@@ -124,5 +201,3 @@ h6 {
 		margin-right:0;
 	}
 }
-
-

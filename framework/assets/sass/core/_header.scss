@@ -1,3 +1,15 @@
 /* =============================
 	 PAGE HEADER STYLES
 =============================== */
+
+//HOME PAGE HERO
+//===========================
+#home-hero {
+	
+	//600px
+	@include respond-max( $l-phone ) {
+		padding-top: em(60) !important;
+		padding-bottom: em(60) !important;
+	}
+	
+}

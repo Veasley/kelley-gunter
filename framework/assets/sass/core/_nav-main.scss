@@ -1,3 +1,130 @@
 /* =============================
 	MAIN NAVIGATION STYLES
 =============================== */
+
+//TOPBAR
+//==================
+.x-topbar {
+	min-height: 45px;
+	
+	//767px
+    @include respond-max($xl-phone) {
+	    min-height: 40px;
+	    
+        .x-social-global {
+	        display: none;
+        }
+    }
+	
+	.p-info {
+		font-size: 13px;
+		color: white;
+		letter-spacing: 0.03em;
+		margin-top: 14px;
+		
+		//767px
+	    @include respond-max($xl-phone) {
+		    margin-top: 0;
+		    border: none !important;
+	    }
+	}
+}
+
+
+
+
+//LOGO
+//======================
+.x-brand.text {
+	
+	@include respond-custom(max-width, 380px) {
+		font-size: 30px;
+		margin-top: 28px;
+	}
+	
+}
+
+
+
+
+
+//NAVIGATION BAR
+//==============================
+.x-navbar {
+	border-bottom: 0 !important;
+	
+	.x-nav {
+		
+		> li {
+			
+			> a {
+				border: none !important;
+				-webkit-transition: color 0.3s;
+				-moz-transition: color 0.3s;
+				transition: color 0.3s;
+				
+				@include respond-custom(max-width, 1398px) {
+					padding-left: 13px !important;
+					padding-right: 13px !important;
+					font-size: 13px !important;
+				}
+				
+				&::before {
+					position: absolute;
+					top: 60%;
+					left: 50%;
+					color: transparent;
+					content: '•';
+					text-shadow: 0 0 transparent;
+					font-size: 1.2em;
+					-webkit-transition: text-shadow 0.3s, color 0.3s;
+					-moz-transition: text-shadow 0.3s, color 0.3s;
+					transition: text-shadow 0.3s, color 0.3s;
+					-webkit-transform: translateX(-50%);
+					-moz-transform: translateX(-50%);
+					transform: translateX(-50%);
+					pointer-events: none;
+				}
+				
+				&:hover,
+				&:focus {
+					box-shadow: none !important;
+					
+					&::before {
+						color: #983e44;
+						text-shadow: 10px 0 #983e44, -10px 0 #983e44;
+					}
+					
+				}
+				
+			}
+		}
+	}
+}
+
+
+
+//Current active item
+.current-menu-item > a {
+	box-shadow: none !important;
+	
+	&::before {
+		color: #983e44 !important;
+		text-shadow: 10px 0 #983e44, -10px 0 #983e44 !important;
+	}
+					
+				
+}
+
+
+//Cart item
+.x-menu-item-woocommerce {
+	margin-left: 0 !important;
+	
+	> a {
+		
+		&::before {
+			display: none !important;
+		}
+	}
+}

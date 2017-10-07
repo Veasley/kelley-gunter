@@ -53,6 +53,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/sass\/components\/_x-blockquote.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/sass\/components\/_x-blockquote.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/sass\/components\/components-loader.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1262,6 +1275,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/sass\/pages\/_shop.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/sass\/pages\/_shop.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/sass\/pages\/pages-loader.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1345,11 +1371,59 @@
 		"oAP": "\/framework\/includes\/helpers.php",
 		"oF": 0
 		},
+	"\/framework\/includes\/loaders\/global-view-loader.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/includes\/loaders\/global-view-loader.php",
+		"oF": 0
+		},
+	"\/framework\/includes\/loaders\/stack-view-loader.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/includes\/loaders\/stack-view-loader.php",
+		"oF": 0
+		},
+	"\/framework\/views\/ethos\/_header-inner.php": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/framework\/views\/ethos\/_header-inner.php",
+		"oF": 0
+		},
+	"\/framework\/views\/ethos\/wp-footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/views\/ethos\/wp-footer.php",
+		"oF": 0
+		},
+	"\/framework\/views\/ethos\/wp-header.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/views\/ethos\/wp-header.php",
+		"oF": 0
+		},
 	"\/functions.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions.php",
 		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/readme.txt": {
 		"ft": 8192,
@@ -1388,7 +1462,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 507270567,
-	"displayValue": "test",
+	"displayValue": "Kelley Gunter",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal"
 	},

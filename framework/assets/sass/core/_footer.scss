@@ -1,3 +1,106 @@
 /* =============================
 	   FOOTER STYLES
 =============================== */
+
+
+// TOP FOOTER
+//=====================
+.x-colophon.top {
+	background-color: $l-grey !important;
+	padding: 3% 0;
+	
+	.widget {
+		text-align: center;
+		
+		&:before {
+			display: none;
+		}
+		
+		.h-widget {
+			display: none;
+		}
+		
+		.h-custom-headline {
+			margin-bottom: em(15);
+			
+			span:before, 
+			span:after {
+				border-color: white !important;
+			}
+		}
+	}
+	
+	// Last widget
+	.last {
+		
+		p {
+			color: $grey;
+			font-size: 14px;
+		}
+		
+	}
+}
+
+
+
+//BOTTOM FOOTER
+//=====================
+.x-colophon.bottom {
+	padding: 30px 0 12px;
+	
+	
+	//Navigation
+	.x-nav {
+		font-family: $font-other;
+		text-align: left !important;
+		font-size: 14px;
+		
+		> li {
+			margin-right: 5%;
+			
+			&:last-of-type {
+				margin-right: 0;
+			}
+			
+			&::after {
+				display: none;
+			}
+			
+			> a {
+				color: white;
+				text-decoration: none !important;
+								
+				&:hover,
+				&:focus {
+					color: $peach;
+				}
+			}
+		}
+	}
+	
+	
+	//Current active item
+	.current-menu-item > a {
+		color: $peach !important;
+	}
+	
+	
+	//Social Media
+	.x-social-global {
+		text-align: right !important;
+		margin-top: -6px !important;
+	}
+}
+
+
+
+//COPYRIGHTS
+//===========================
+#footer-copyrights {
+	background-color: $grey;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
+	padding: 13px;
+}

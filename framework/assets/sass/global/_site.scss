@@ -2,8 +2,45 @@
 // These styles applies throughout the whole website
 //==========================================================
 
-a {
+a,
+a:focus {
+	-webkit-outline: none !important;
 	-moz-outline: none !important;
 	outline: none !important;
 }
 
+
+//SOCIAL MEDIA
+//==================================
+.x-social-global {
+	margin-top: 7px !important;
+	
+	//Facebook
+	.x-icon-facebook-square::before {
+		content: '\f09a';
+	}
+	
+	//Twiiter
+	.x-icon-twitter-square::before {
+		content: '\f099';
+	}
+	
+	> a {
+		font-size: 18px;
+		line-height: 1.6;
+		width: 30px;
+		height: 30px;
+		color: $l-blue;
+		background-color: white;
+		border-radius: 100%;
+		
+		&:hover,
+		&:focus {
+			color: $pink !important;
+		}
+		
+		> i::before {
+			vertical-align: middle;
+		}
+	}
+}

@@ -5,7 +5,8 @@
 //Black Button
 //==================
 .x-btn {
-	//border: 8px double $black !important;
+	text-transform: uppercase;
+	text-shadow: none !important;
 	padding: em(20) em(35)!important;
 	font-size: 16px !important;
 	letter-spacing: 1px;
@@ -30,30 +31,15 @@
 //White Button
 //====================
 .x-btn.-white-btn{
-	border: 8px double white !important;
-	color: white;
+	border-color: white;
+	background-color: white;
+	color: $pink;
 
 
 	&:focus,
 	&:hover {
-		border: 8px double white;
-		background-color: rgba(white, .8) !important;
-		//color: $black;
-	}
-
-}
-
-
-//Green Button
-//====================
-.x-btn.-lime-btn{
-	//border: 8px double $green !important;
-	color: white;
-
-	&:focus,
-	&:hover {
-		//border: 8px double $green;
-		//background-color: rgba($green, .8) !important;
+		border-color: $pink;
+		background-color: $pink;
 		color: white;
 	}
 

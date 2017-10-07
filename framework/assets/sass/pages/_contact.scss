@@ -1,3 +1,27 @@
 /* =============================
 		CONTACT PAGE
 =============================== */
+
+
+//SUBSCRIBE FORM
+//===========================
+#gform_widget-2 {
+	margin-top: 0 !important;
+	
+	//Hiding label fields
+	.name_first,
+	.name_last {
+		
+		label {
+			display: none !important;
+		}
+	}
+	
+	
+	// Subscribe Form
+	.gform_button.button,
+	input[type="submit"] {
+		width: 100%;
+	}
+
+}

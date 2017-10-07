@@ -1,0 +1,18 @@
+/* =============================
+	   BLOCK QUOTE STYLES
+=============================== */
+.x-blockquote {
+	font-family: $font-title;
+	border: none;
+	font-style: italic;
+	font-size: 1.2rem;
+	letter-spacing: 0.03em;
+	color: $l-blue;
+	margin: 0;
+	padding-top: 0;
+	
+	.x-cite {
+		display: inline;
+		font-family: $font-main;
+	}
+}

@@ -1,3 +1,18 @@
 /* =============================
 		HOME PAGE
 =============================== */
+
+
+//FEATURED TITLES
+//=========================
+#featured-title {
+	
+	.x-text {
+		
+		h3 {
+			color: $grey ;
+			font-style: normal !important;
+			margin-bottom: em(15);
+		}
+	}
+}
