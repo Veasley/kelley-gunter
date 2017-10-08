@@ -44,7 +44,15 @@
 	<div id="footer-copyrights">
 		<div class="x-container max width">
 			<div class="x-column x-sm x-1-1">
-			    Copyright &copy; <?php echo date('Y'); ?> kelleygunter.com. All Rights Reserved.
+				
+				<?php
+					// DECLAIRING ACF FIELDS
+					//========================================
+					$copyrights = get_field('footer_copyrights', 'options' );
+				?>
+				
+			    Copyright &copy; <?php echo date('Y'); ?> <?php echo $copyrights ?>
+			    
 		    </div>
 		</div>
 	</div>

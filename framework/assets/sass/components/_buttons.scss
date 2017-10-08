@@ -4,7 +4,10 @@
 
 //Black Button
 //==================
-.x-btn {
+.x-btn,
+.single_add_to_cart_button,
+.checkout-button,
+.woocommerce .cart .actions > input {
 	text-transform: uppercase;
 	text-shadow: none !important;
 	padding: em(20) em(35)!important;

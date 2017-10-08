@@ -84,6 +84,10 @@
 					-moz-transform: translateX(-50%);
 					transform: translateX(-50%);
 					pointer-events: none;
+					
+					@include respond-custom(max-width, 1170px) {
+						display: none;
+					}
 				}
 				
 				&:hover,

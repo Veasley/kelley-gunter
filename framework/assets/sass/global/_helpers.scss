@@ -9,7 +9,9 @@
 	width: 100%;
 }
 
-._border-img {
+
+//Pink border around images w/ link
+._border-img-link {
 	
 	> img {
 		border: 2px solid $pink;
@@ -17,10 +19,16 @@
 	
 }
 
+//Pink border around images w/out link
+._border-img {
+	border: 2px solid $pink;
+}
+
+
 
 //Hiding Column
 //================
-._invisible-col {
+&._invisible-col {
 	
 	//880px
 	@include respond-max( $m-tablet ) {
@@ -43,26 +51,37 @@
 //========================
 ._mobile-padding-tb {
 	
-	//600px
-    @include respond-max($l-phone) {
-        padding-top: em(40) !important;
-		padding-bottom: em(40) !important;
+	//880px
+    @include respond-max($m-tablet) {
+        padding-top: em(60) !important;
+		padding-bottom: em(60) !important;
+    }
+}
+
+
+._mobile-padding-tbl {
+	
+	//880px
+    @include respond-max($m-tablet) {
+        padding-top: em(80) !important;
+		padding-bottom: em(80) !important;
     }
 }
 
 ._mobile-padding-top {
 	
-	//600px
-    @include respond-max($l-phone) {
-        padding-top: em(30) !important;
+	//880px
+    @include respond-max($m-tablet) {
+        padding-top: em(80) !important;
+        padding-bottom: 0 !important;
     }
 }
 
 ._mobile-padding-bottom {
 	
-	//600px
-    @include respond-max($l-phone) {
-        padding-bottom: em(30) !important;
+	//880px
+    @include respond-max($m-tablet) {
+        padding-bottom: em(60) !important;
     }
 }
 
@@ -72,26 +91,26 @@
 //========================
 ._mobile-margin-tb {
 	
-	//600px
-    @include respond-max($l-phone) {
-        margin-top: em(30) !important;
-		margin-bottom: em(30) !important;
+	//880px
+    @include respond-max($m-tablet) {
+        margin-top: em(60) !important;
+		margin-bottom: em(60) !important;
     }
 }
 
 ._mobile-margin-top {
 	
-	//600px
-    @include respond-max($l-phone) {
-        margin-top: em(30) !important;
+	//880px
+    @include respond-max($m-tablet) {
+        margin-top: em(60) !important;
     }
 }
 
 ._mobile-margin-bottom {
 	
-	//600px
-    @include respond-max($l-phone) {
-        margin-bottom: em(30) !important;
+	//880px
+    @include respond-max($m-tablet) {
+        margin-bottom: em(60) !important;
     }
 }
 
@@ -121,7 +140,7 @@
 	&._overlay-grey {
 	
 		&:before {
-			background-color: rgba($d-grey, .7);
+			background-color: rgba($d-grey, .6);
 		}
 		
 	}
@@ -146,6 +165,8 @@
 
 //BREAKING COLUMNS
 //========================
+
+// 1/2 Columns
 ._break-1-2 {
 	
 	//880px
@@ -155,6 +176,42 @@
 			width: 100% !important;
 			float: none !important;
 			display: block !important;
+			margin-right: 0 !important;
+			
+			//Hiding Column
+			//================
+			&._invisible-col {
+				display: none !important;
+			}
+
 		}
+	}
+}
+
+// 1/3  + 2/3 Columns
+._break-2-3 {
+	
+	//880px
+    @include respond-max($m-tablet) {
+	    
+	    .x-column.x-1-3,
+	    .x-column.x-2-3 {
+		    width: 100%;
+			float: none;
+			display: block;
+			margin-right: 0;
+	    }
+	    
+	    .x-column.x-1-3 {
+		    
+		    img {
+			    @include center;
+			    max-width: 50%;
+			    
+			    @include respond-custom(max-width, 380px) {
+					max-width: 100%;
+				}
+		    }
+	    }
 	}
 }

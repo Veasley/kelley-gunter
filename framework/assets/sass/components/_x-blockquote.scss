@@ -11,6 +11,12 @@
 	margin: 0;
 	padding-top: 0;
 	
+	//600px
+	@include respond-max( $l-phone ) {
+		line-height: 1.5 !important;
+		font-size: 0.85rem !important;
+	}
+	
 	.x-cite {
 		display: inline;
 		font-family: $font-main;

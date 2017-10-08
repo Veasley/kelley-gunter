@@ -1249,6 +1249,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/sass\/pages\/_blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/sass\/pages\/_blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/sass\/pages\/_contact.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1383,12 +1396,6 @@
 		"oAP": "\/framework\/includes\/loaders\/stack-view-loader.php",
 		"oF": 0
 		},
-	"\/framework\/views\/ethos\/_header-inner.php": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/framework\/views\/ethos\/_header-inner.php",
-		"oF": 0
-		},
 	"\/framework\/views\/ethos\/wp-footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1453,6 +1460,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/style.css.map",
+		"oF": 0
+		},
+	"\/woocommerce\/single-product\/related.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/single-product\/related.php",
 		"oF": 0
 		}
 	},

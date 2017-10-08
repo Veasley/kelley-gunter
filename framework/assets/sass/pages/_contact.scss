@@ -8,6 +8,10 @@
 #gform_widget-2 {
 	margin-top: 0 !important;
 	
+	input[type="text"] {
+		background-color: white;
+	}
+	
 	//Hiding label fields
 	.name_first,
 	.name_last {
@@ -24,4 +28,25 @@
 		width: 100%;
 	}
 
+}
+
+
+
+//CONTACT FORM
+//===========================
+#gform_wrapper_2,
+#gform_wrapper_3 {
+	margin-top: 0 !important;
+	
+	//Hiding label fields
+	.name_first,
+	.name_last,
+	.ginput_full,
+	.ginput_left,
+	.ginput_right {
+		
+		label {
+			display: none !important;
+		}
+	}
 }

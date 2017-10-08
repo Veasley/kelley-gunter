@@ -3,19 +3,32 @@
 =============================== */
 
 //Display mobile menu early
- @include respond-custom( max-width, 1170px ){
+@include respond-custom(max-width, 1170px) {
 
-	.x-btn-navbar {
-     display: block;
-     float: right;
-    }
-    
     .x-nav-wrap.desktop {
-        display: none !important;
+       display: none !important;
     }
     
-    .x-nav-wrap.mobile.in {
-        display: block;
+    .x-btn-navbar {
+        display: block !important;
+        float: right;
     }
-
+    
+    .x-nav-wrap.mobile.in,
+    .x-nav-wrap.mobile.collapsing {
+        display: block !important;
+    }
+    
+    
+    //Mobile cart
+    .x-navbar .mobile .x-nav > li.x-menu-item-woocommerce > a {
+	    padding-left: 0 !important;
+		padding-right: 0 !important;
+		font-size: 16px !important;
+    }
+    
+    .x-cart > span {
+		float: none !important;
+		width: 100% !important;
+	}    
 }

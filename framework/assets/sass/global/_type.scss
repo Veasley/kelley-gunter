@@ -65,20 +65,79 @@ h1 {
 // ===========================
 h2 {
 	font-size: 300% !important;
+	
+	//1280px
+	@include respond-max( $l-laptop ) {
+		font-size: 280% !important;
+	}
+	
+	
+	//1024px
+	@include respond-max( $hor-tablet ) {
+		font-size: 220% !important;
+	}
+	
+	
+	//768px
+	@include respond-max( $ver-tablet ) {
+		font-size: 200% !important;
+	}
+	
+	
+	//600px
+	@include respond-max( $l-phone ) {
+		font-size: 180% !important;
+	}
+	
+	
+	//480px
+	@include respond-max( $m-phone ) {
+		font-size: 160% !important;
+	}
 }
+
 
 
 // H3 BUILD
 // ===========================
 h3 {
 	font-size: 200% !important;
+	
+	//1024px
+	@include respond-max( $hor-tablet ) {
+		font-size: 180% !important;
+	}
+	
+	//768px
+	@include respond-max( $ver-tablet ) {
+		font-size: 160% !important;
+	}
+	
+	
+	//600px
+	@include respond-max( $l-phone ) {
+		font-size: 130% !important;
+	}
 }
+
+
 
 
 // H4 BUILD
 // ===========================
 h4 {
 	font-size: 160% !important;
+	
+	//768px
+	@include respond-max( $ver-tablet ) {
+		font-size: 130% !important;
+	}
+	
+	
+	//600px
+	@include respond-max( $l-phone ) {
+		font-size: 120% !important;
+	}
 }
 
 

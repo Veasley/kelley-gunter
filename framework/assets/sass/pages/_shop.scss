@@ -1,10 +1,6 @@
 /* ======================================
 			WOOCOMMERCE SHOP
 ========================================*/
-
-
-//PRODUCTS
-//===================
 .woocommerce  {
 	
 	//Product
@@ -19,25 +15,150 @@
 			}
 			
 			//Price
-			.price > .amount {
+			.price > .amount,
+			del > span,
+			ins > span {
 				font-size: 20px !important;
 			}
 			
 		}
-	}
-	
-	//Button
-	.button {
-		background-color: transparent !important;
-		border-width: 3px;
-		color: $pink;
-		text-shadow: none !important;
-		text-transform: uppercase;
 		
-		&:hover {
-			background-color: $l-blue !important;
-			color: white;
+		//Button
+		.add_to_cart_button {
+			background-color: transparent !important;
+			border-width: 3px;
+			color: $pink;
+			text-shadow: none !important;
+			text-transform: uppercase;
+			
+			&:hover {
+				background-color: $l-blue !important;
+				color: white;
+			}
 		}
 	}
 	
+	
+	// Removing head title
+	.x-header-landmark {
+		display: none;
+	}	
+	
+	
+	// Result Count / Select
+	.woocommerce-result-count,
+	.woocommerce-ordering select {
+		background-color: transparent !important;
+		border: 3px solid $pink;
+		text-shadow: none !important;
+		text-transform: uppercase;
+		text-align: center;
+		height: 45px;
+		font-size: 14px;
+	}
+	
+	
+	
 }
+
+
+
+
+//SINGLE PRODUCTS PAGE
+//===================
+.woocommerce  {
+	
+	//Images
+	div.product .images {
+		width: 40% !important;
+		
+		//1200px
+		@include respond-max( $m-desktop ) {
+			width: inherit !important;
+			padding: 0;
+		}
+	}
+	
+	//Thumb Gallery
+	.flex-control-nav {
+	    position: relative;
+	    
+	    &.flex-control-thumbs img {
+		    height: 5.5em;
+	    }
+	}
+	
+	//Summary
+	div.product .summary {
+		width: 60% !important;
+		padding: 0 5%;
+		
+		//1200px
+		@include respond-max( $m-desktop ) {
+			width: inherit !important;
+			padding: 0;
+		}
+		
+		p {
+			//600px
+			@include respond-max( $l-phone ) {
+				line-height: 1.5 !important;
+				font-size: 0.85rem !important;
+			}
+		}
+	}
+	
+	
+	//Title
+	.entry-title {
+		font-size: 280% !important;
+		
+		//1024px
+		@include respond-max( $hor-tablet ) {
+			font-size: 220% !important;
+		}
+		
+		
+		//768px
+		@include respond-max( $ver-tablet ) {
+			font-size: 200% !important;
+		}
+		
+		
+		//600px
+		@include respond-max( $l-phone ) {
+			font-size: 180% !important;
+		}
+		
+		
+		//480px
+		@include respond-max( $m-phone ) {
+			font-size: 160% !important;
+		}
+	}
+}
+
+
+
+//ADDING PADDING TO SHOP PAGES, CART, CHECKOUT, AND ACCOUNT PAGE
+//===============================================================
+.page-id-32,
+.page-id-33,
+.page-id-34,
+.woocommerce {
+	
+	.x-container > .offset {
+	    margin: 0 auto;
+	    padding: 6% 0;
+	    
+	    //880px
+	    @include respond-max($m-tablet) {
+	        padding-top: em(60) !important;
+			padding-bottom: em(60) !important;
+	    }
+	}
+
+}
+
+
+
