@@ -1,0 +1,142 @@
+/* =============================
+	   AMBASSADOR STYLES
+=============================== */
+
+
+//AMBASSADOR PROGRAM
+//===========================
+#ambassador-program {
+	
+	.straight-title {
+		
+		h5 {
+			font-family: $font-main;
+			font-weight: bold;
+			margin-top: em(15) !important;
+			font-style: normal;
+			letter-spacing: normal;
+			//color: $d-grey;
+		}
+		
+		span {
+			color: $pink;
+			font-style: italic;
+		}
+	}
+}
+
+
+//BENEFITS & REQUIREMENTS
+//===========================
+#benefits-requirements {
+	
+	.benefits,
+	.requirements {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	
+	
+	.benefits {
+		background-image: url('/wp-content/uploads/2017/10/lblue-pattern.png');
+	}
+	
+	
+	.requirements {
+		background-image: url('/wp-content/uploads/2017/10/pink-pattern.png');
+	}
+}
+
+
+//APPLICATION PROCESS
+//==========================
+#application-process {
+	
+	
+	.apply-now {
+		
+		strong:nth-child(1) {
+			font-size: 22px;
+		}
+		
+		ul {
+			
+			li {
+				padding-bottom: em(15);
+			}
+		}
+		
+		
+		p > em > strong {
+			font-size: 1em !important;
+		}
+	}
+	
+	
+	.application {
+		
+		strong:nth-child(1) {
+			font-size: 22px;
+		}
+		
+		
+		.x-text {
+			margin-bottom: em(30) !important;
+		}
+		
+		
+		//Form fields
+		#input_3_2,
+		#input_3_6,
+		#input_3_7,
+		#input_3_9_3 {
+			width: 102% !important;
+		}
+		
+		//List
+		/*.gfield_list_cell {
+			padding: 0 !important;
+		}
+		
+		.gfield_list_icons {
+			width: 25px !important;
+			padding-left: 10px !important;
+		}*/
+		
+		
+		//Address
+		#field_3_9 {
+			
+			input[type="text"] {
+				margin-bottom: 5px !important;
+			}
+		}
+		
+		
+		//City
+		#input_3_9_3_container  {
+			
+			input[type="text"] {
+				margin-bottom: 0 !important;
+			}
+		}
+		
+		
+		#input_3_9_3_container,
+		#input_3_9_4_container,
+		#input_3_9_5_container {
+			width: 100% !important;
+			padding-right: 0 !important;
+			
+			input[type="text"] {
+				width: 100% !important;
+			}
+		}
+		
+		
+	}
+}

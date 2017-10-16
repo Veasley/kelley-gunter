@@ -59,6 +59,7 @@
 			
 			> a {
 				border: none !important;
+				font-weight: 600 !important;
 				-webkit-transition: color 0.3s;
 				-moz-transition: color 0.3s;
 				transition: color 0.3s;
@@ -74,9 +75,11 @@
 					top: 60%;
 					left: 50%;
 					color: transparent;
-					content: '•';
+					content: '\f111';
 					text-shadow: 0 0 transparent;
-					font-size: 1.2em;
+					font-family: FontAwesome;
+					font-size: 5px;
+					padding-top: 6px;
 					-webkit-transition: text-shadow 0.3s, color 0.3s;
 					-moz-transition: text-shadow 0.3s, color 0.3s;
 					transition: text-shadow 0.3s, color 0.3s;

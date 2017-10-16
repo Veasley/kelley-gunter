@@ -2,6 +2,11 @@
 // These styles applies throughout the whole website
 //==========================================================
 
+
+body {
+	font-family: $font-main !important;
+}
+
 a,
 a:focus {
 	-webkit-outline: none !important;
@@ -51,6 +56,19 @@ a:focus {
 //============================
 .index-0 {
 	z-index: 0 !important;
+}
+
+.index-1 {
+	z-index: 1 !important;
+}
+
+
+.index-2 {
+	z-index: 2 !important;
+}
+
+.index-3 {
+	z-index: 3 !important;
 }
 
 

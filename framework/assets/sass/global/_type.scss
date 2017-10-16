@@ -170,7 +170,6 @@ h6 {
 	//600px
 	@include respond-max( $l-phone ) {
 		line-height: 1.5 !important;
-		font-size: 0.85rem !important;
 	}
 	
 	p {
@@ -178,21 +177,11 @@ h6 {
 	}
 	
 
-	//Gray Variant
-	//=======================
-	&.-grey{
-
-		> h1, h2, h3, h4,h5,h6, p{
-			//color: $grey;
-		}
-
-	}
-
 	//White Variant
 	//=====================
 	&.-white{
 
-		> h1, h2, h3, h4, h5, h6, p{
+		> h1, h2, h3, h4, h5, h6, p, ul {
 			color: white;
 		}
 	}
