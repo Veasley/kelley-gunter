@@ -1249,6 +1249,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/sass\/pages\/_ambassadors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/sass\/pages\/_ambassadors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/sass\/pages\/_blog.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1394,6 +1407,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/framework\/includes\/loaders\/stack-view-loader.php",
+		"oF": 0
+		},
+	"\/framework\/views\/ethos\/woocommerce.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/views\/ethos\/woocommerce.php",
 		"oF": 0
 		},
 	"\/framework\/views\/ethos\/wp-footer.php": {
