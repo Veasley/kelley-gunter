@@ -66,6 +66,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/sass\/components\/_x-slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/sass\/components\/_x-slider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/sass\/components\/components-loader.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1249,6 +1262,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/sass\/pages\/_ambassador.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/sass\/pages\/_ambassador.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/sass\/pages\/_ambassadors.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1464,22 +1490,6 @@
 		"oAP": "\/screenshot.png",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/style.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/style.css.map",
-		"oF": 0
 		},
 	"\/woocommerce\/single-product\/related.php": {
 		"ft": 8192,

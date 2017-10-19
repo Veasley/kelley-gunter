@@ -45,6 +45,13 @@
 			font-size: 14px;
 		}
 	}
+	
+	
+	//Twitter
+	#text-3 {
+		text-align: left;
+	}
+		
 }
 
 
@@ -69,7 +76,6 @@
 	
 	//Navigation
 	.x-nav {
-		font-family: $font-other;
 		text-align: left !important;
 		font-size: 14px;
 		margin-bottom: 0;
@@ -93,6 +99,8 @@
 			> a {
 				color: white;
 				text-decoration: none !important;
+				font-weight: 600;
+				letter-spacing: 1px;
 								
 				&:hover,
 				&:focus {

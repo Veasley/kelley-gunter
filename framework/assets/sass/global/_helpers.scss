@@ -14,21 +14,21 @@
 ._border-img-link {
 	
 	> img {
-		border: 2px solid $pink;
+		border: 5px solid $pink;
 	}
 	
 }
 
 //Pink border around images w/out link
 ._border-img {
-	border: 2px solid $pink;
+	border: 5px solid $pink;
 }
 
 
 
 //Hiding Column
 //================
-&._invisible-col {
+._invisible-col {
 	
 	//880px
 	@include respond-max( $m-tablet ) {
