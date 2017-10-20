@@ -44,7 +44,7 @@ BEGIN #top.site
 							<div class="x-text -white mbl">
 								<h1><?php echo $home_title ?></h1>
 							</div>
-							<div class="x-text -white _max-880">
+							<div class="x-text -white _max-960">
 								<p><?php echo $home_subtitle ?></p>
 							</div>
 						</div>

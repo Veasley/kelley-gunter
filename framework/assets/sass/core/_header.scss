@@ -12,9 +12,33 @@
 		padding-bottom: em(60) !important;
 	}
 	
+}
+
+
+
+//INNER PAGE HERO
+//===========================
+#inner-hero {
 	
-	.x-text > p {
-		font-size: 1.1rem;
+	//1024px
+    @include respond-max($hor-tablet) {
+        padding-top: em(120) !important;
+        padding-bottom: em(100) !important;
+    }
+    
+    
+    //768px
+    @include respond-max($ver-tablet) {
+        padding-top: em(100) !important;
+        padding-bottom: em(80) !important;
+    }
+	
+	//600px
+	@include respond-max( $l-phone ) {
+		padding-top: em(80) !important;
+		padding-bottom: em(60) !important;
 	}
 	
 }
+
+

@@ -49,6 +49,18 @@
 	.requirements {
 		background-image: url('/wp-content/uploads/2017/10/pink-pattern.png');
 	}
+	
+	.x-text ul {
+		margin-bottom: 0;
+		
+		> li {
+			padding-bottom: 15px;
+			
+			&:last-of-type {
+				padding-bottom: 0;
+			}
+		}
+	}
 }
 
 
@@ -61,6 +73,12 @@
 		
 		strong:nth-child(1) {
 			font-size: 22px;
+			line-height: 1.22;
+			
+			//1024px
+			@include respond-max($hor-tablet) {
+				font-size: 18px;
+			}
 		}
 		
 		ul {
@@ -81,6 +99,12 @@
 		
 		strong:nth-child(1) {
 			font-size: 22px;
+			line-height: 1.2;
+			
+			//1024px
+			@include respond-max($hor-tablet) {
+				font-size: 18px;
+			}
 		}
 		
 		

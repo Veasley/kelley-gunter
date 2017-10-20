@@ -53,6 +53,22 @@
 .x-navbar {
 	border-bottom: 0 !important;
 	
+	.x-navbar-inner {
+		
+		//1400px
+	    @include respond-max($m-desktop) {
+		    
+		    .x-container.max {
+			    max-width: 1600px;
+		    }
+		    
+		    .x-container.width {
+			    width: 90%;
+		    }
+	    }
+
+	}
+	
 	.x-nav {
 		
 		> li {
@@ -64,10 +80,17 @@
 				-moz-transition: color 0.3s;
 				transition: color 0.3s;
 				
-				@include respond-custom(max-width, 1398px) {
+				@include respond-custom(max-width, 1470px) {
 					padding-left: 13px !important;
 					padding-right: 13px !important;
 					font-size: 13px !important;
+				}
+				
+				
+				//1200px
+				@include respond-max($m-desktop) {
+					padding-left: 10px !important;
+					padding-right: 10px !important;
 				}
 				
 				&::before {

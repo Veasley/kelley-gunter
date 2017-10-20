@@ -80,9 +80,18 @@
 		font-size: 14px;
 		margin-bottom: 0;
 		
+		@include respond-custom(max-width, 1455px) {
+			font-size: 12px;
+		}
+		
 		@include respond-custom(max-width, 1223px) {
 			text-align: center !important;
 			margin-bottom: 15px;
+		}
+		
+		//600px
+		@include respond-max( $l-phone ) {
+			font-size: 12px;
 		}
 		
 		> li {
