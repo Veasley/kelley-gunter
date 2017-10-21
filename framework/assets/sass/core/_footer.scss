@@ -43,6 +43,7 @@
 		p {
 			color: $grey;
 			font-size: 14px;
+			line-height: 1.2 !important;
 		}
 	}
 	
@@ -50,6 +51,12 @@
 	//Twitter
 	#text-3 {
 		text-align: left;
+	}
+	
+	
+	//Submit button for subscribe form
+	.gform_wrapper .gform_footer {
+		margin-top: em(20) !important;
 	}
 		
 }
