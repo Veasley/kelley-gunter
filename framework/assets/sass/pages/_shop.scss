@@ -176,7 +176,8 @@
 	}
 	
 	//Update Total button
-	.woocommerce .cart-collaterals .woocommerce-shipping-calculator button {
+	.woocommerce .cart-collaterals .woocommerce-shipping-calculator button,
+	.woocommerce-checkout .button {
 		margin-top: 15px !important;
 	}
 }
