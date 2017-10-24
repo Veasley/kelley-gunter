@@ -38,7 +38,7 @@ BEGIN #top.site
 				?>
 				
 				
-				<div id="home-hero" class="x-section _before _gradient-rl bg-image" style="margin: 0px; padding: 10% 0px 10%; background-image: url( <?php echo esc_url( $home_bg['url'] ); ?> ); background-color: transparent;" data-x-element="section" data-x-params="{&quot;type&quot;:&quot;image&quot;,&quot;parallax&quot;:false}">
+				<div id="home-hero" class="x-section _before _gradient-rl bg-image" style="margin: 0px; padding: 8% 0px 8%; background-image: url( <?php echo esc_url( $home_bg['url'] ); ?> ); background-color: transparent;" data-x-element="section" data-x-params="{&quot;type&quot;:&quot;image&quot;,&quot;parallax&quot;:false}">
 					<div class="x-container max width" style="margin: 0px auto;padding: 0px;">
 						<div class="x-column x-sm x-1-1" style="padding: 0px;">
 							<div class="x-text -white mbl">
