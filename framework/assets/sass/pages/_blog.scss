@@ -138,6 +138,25 @@
 			font-style: normal;
 			text-transform: uppercase;
 		}
+		
+		.comment {
+			padding-top: 8px;
+			
+			.x-comment-meta .x-comment-time {
+				font-family: $font-main !important;
+			}
+			
+			.x-comment-author {
+				font-family: $font-bold;
+				font-size: 1rem;
+				letter-spacing: 0.01em !important;
+			}
+			
+			.x-comment-content {
+				font-size: 15px !important;
+				line-height: 1.2 !important;
+			}
+		}
 	}
 }
 
@@ -150,7 +169,12 @@
 	
 	//Hiding featured image
 	.entry-featured {
-		display: none;
+		//display: none;
+	}
+	
+	//Search form
+	.form-search:before {
+		left: 90% !important;
 	}
 	
 }

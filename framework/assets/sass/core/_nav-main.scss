@@ -55,8 +55,7 @@
 	
 	.x-navbar-inner {
 		
-		//1400px
-	    @include respond-max($m-desktop) {
+		@include respond-custom(max-width, 1580px) {
 		    
 		    .x-container.max {
 			    max-width: 1600px;
@@ -81,17 +80,17 @@
 				-moz-transition: color 0.3s;
 				transition: color 0.3s;
 				
-				@include respond-custom(max-width, 1470px) {
+				//1400px
+				@include respond-max($m-desktop) {
 					padding-left: 13px !important;
 					padding-right: 13px !important;
 					font-size: 13px !important;
 				}
 				
 				
-				//1200px
-				@include respond-max($m-desktop) {
-					padding-left: 10px !important;
-					padding-right: 10px !important;
+				@include respond-custom(max-width, 1320px) {
+					padding-left: 8px !important;
+					padding-right: 8px !important;
 				}
 				
 				&::before {
@@ -112,7 +111,7 @@
 					transform: translateX(-50%);
 					pointer-events: none;
 					
-					@include respond-custom(max-width, 1170px) {
+					@include respond-custom(max-width, 1260px) {
 						display: none;
 					}
 				}

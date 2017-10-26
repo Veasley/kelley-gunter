@@ -3,7 +3,7 @@
 =============================== */
 
 //Display mobile menu early
-@include respond-custom(max-width, 1170px) {
+@include respond-custom(max-width, 1260px) {
 
     .x-nav-wrap.desktop {
        display: none !important;
